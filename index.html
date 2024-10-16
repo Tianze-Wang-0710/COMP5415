@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <title>COMP5415/4415 Multimedia Design and Authoring</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="MDA team">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/Mda.css"> 
+
+  </head>
+
+  <body>
+
+    <section id="Navigation">  
+      <nav class="navbar navbar-expand-lg navbar-light " style="background-color: rgb(194, 235, 196);">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand logo-style" href="#"><img class="logo" src="assets/img/Logo-tea.jpg" alt=""></a>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#Description">Introduction<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Images
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#poster">logo</a>
+              <a class="dropdown-item" href="#banner">Banner</a>
+              <a class="dropdown-item" href="#poster">Poster</a>
+              </div>
+            </li>
+            
+            <li class="nav-item  active">
+              <a class="nav-link" href="#Animation">Animation</a>
+            </li>
+            <li class="nav-item  active">
+              <a class="nav-link disabled" href="#video">Video</a>
+            </li>
+          </ul>
+          <span class="navbar-text" style="color: rgb(7, 7, 7);">
+          COMP5415/4415
+          </span>
+        </div>
+      </nav>
+    </section>
+
+    <section class="hero" id="banner">
+      <div class="hero-container">
+        <h1>Chinese Tea Culture</h1>
+        <p>Tea culture is an important part of Chinese traditional culture. Next, I will take you to have a deeper understanding of Chinese tea culture.</p>
+        <a href="#poster">What to know more →</a>
+      </div>
+    </section>
+
+    <section id="poster" style="margin: 10px;">   
+      <div class="card-deck">
+        <div class="card">
+           <img src="assets/img/Poster-tea.png" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Poster</h5>
+            <p class="card-text">Through modern design language and traditional typesetting and color matching, the profound connotation of Chinese tea culture is combined with modern style to convey the tranquility and harmony of Chinese tea culture.</p>
+            </div>
+        </div>
+        <div class="card">
+           <img src="assets/img/Logo-tea.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Logo</h5>
+            <p class="card-text">The core elements of Chinese tea culture are combined with a modern design style, using modern tea leaves and teacups as the main graphic elements, and green in the traditional Chinese color scheme as the main color, showing the vitality, nature and sustainable development of Chinese tea culture.</p>
+            </div>
+        </div>
+        <!--  <div class="card">
+           <img src="assets/img/operahouse.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Poster 2</h5>
+            <p class="card-text">Description</p>
+            </div> -->
+        </div>
+ 
+    </section>
+
+
+
+    <div class="container-fluid">
+
+      <section id="Description">
+        <div class="row">
+          <div class="col-12 mt-3">
+            <div class="card">
+              <div class="card-horizontal">
+                <div class="img-square-wrapper col-3">
+                    <img class="logo" class="" src="assets/img/Logo-tea.jpg" alt="Card image cap" height="400" width="600">
+                </div>
+                <div class="card-body">
+                  <h2 class="card-title"> <strong>Introduction to Chinese Tea Culture</strong>
+                  </h2>
+                  <p class="card-text"><strong></strong> Tea culture is an important part of Chinese traditional culture, and its history dates back thousands of years. From ancient times to the present, tea culture has always played an important role in people's daily lives, forming a rich historical heritage and cultural connotation. In China, tea is not only a daily drink for people, but also a way of socializing and a manifestation of spiritual cultivation.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>       
+      </section>
+
+      <section id="video">
+        <div class="row">
+          <div class="col-12 mt-3">
+            <div class="card">
+              <div class="card-horizontal">
+                <div class="card-body">
+                  <h2 class="card-title"> <strong>Promotional Video</strong>
+                  </h2>
+
+                  <div class="img-square-wrapper" style="margin: 10px;">
+                    <!--<iframe width="1000" height="800" src="https://www.youtube.com/embed/OYhhp44eLzE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                      
+                    </iframe>-->
+              <video id="myvideo" controls width="900" height="500">
+              <source src="assets/Final Video.mp4"
+               type="video/MP4">
+              </video>
+              </div>  
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>       
+      </section>
+
+      <section id="full-slide">
+        <div class="row">
+          <div class="col-6 mt-3">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+              <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+              </ul>
+            <div class="carousel-inner">
+              <div class="carousel-item active" style="background-image: url(assets/img/tea1.jpg);">
+              </div>
+              <div class="carousel-item" style="background-image: url(assets/img/tea2.jpg);">
+              </div>
+              <div class="carousel-item" style="background-image: url(assets/img/tea3.jpg);">
+              </div>
+            </div>
+              <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+            </div>
+          </div>
+          <div class="col-6 mt-3">
+            <div id="demo2" class="carousel slide" data-ride="carousel">
+              <ul class="carousel-indicators">
+                <li data-target="#demo2" data-slide-to="0" class="active"></li>
+                <li data-target="#demo2" data-slide-to="1"></li>
+                <li data-target="#demo2" data-slide-to="2"></li>
+              </ul>
+            <div class="carousel-inner">
+              <div class="carousel-item active" style="background-image: url(assets/img/tea4.jpg);">
+              </div>
+              <div class="carousel-item" style="background-image: url(assets/img/tea5.jpg);">
+              </div>
+              <div class="carousel-item" style="background-image: url(assets/img/tea6.jpeg);">
+              </div>
+            </div>
+              <a class="carousel-control-prev" href="#demo2" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#demo2" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Animation">
+        <div class="row">
+          <div class="col-12 mt-3">
+            <div class="card">
+              <div class="card-horizontal">
+                <div class="card-body">
+                  <h2 class="card-title"> <strong>3D Animation</strong>
+                  </h2>
+                  <p class="card-text"> This is a 3D animation trailer for our Chinese tea culture promotion campaign. Our design concept is to convey the ritual sense of Chinese tea culture and the spirit of harmony with nature to the audience through 3D animation.
+                  </p>
+                
+                </div>
+                <div class="img-square-wrapper" style="margin: 10px;">
+                      <!--<iframe width="1000" height="800" src="https://www.youtube.com/embed/OYhhp44eLzE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        
+                      </iframe>-->
+                <video id="myvideo" controls width="900" height="500">
+                <source src="assets/3D animation.mp4"
+                 type="video/MP4">
+                </video>
+
+                </div>    
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Conclusion">
+        <div class="row">
+          <div class="col-12 mt-3">
+            <div class="card">
+              <div class="card-horizontal">
+                        <div class="card-body">
+                          <h2 class="card-title">Acknowledgements</h2>
+                          <p class="card-text"><p>The ultimate goal of the project is to introduce and promote Chinese tea culture through multimedia technology. I hope that this website can bring a good experience to the audience, and I hope there will be opportunities to further improve this website in the future. Thank you!</p>
+                          <div>Produced by Tianze Wang & 530262165</div></br>
+                          <div>twan0923@uni.sydney.edu.au</div></br>
+                        </div>
+                <div class="img-square-wrapper col-4">
+                  <img class="logo" src="assets/img/Logo-tea.jpg" alt="Card image cap" height="500" width="800">
+                </div>       
+              </div>
+            </div>
+          </div>
+        </div> 
+      </section>
+   
+    </div>
+    <footer class="page-footer font-small blue">
+
+  
+      <div class="footer-copyright text-center py-3" style="margin-top: 30px;">© 2021 Copyright:
+        <a href="#"> COMP5415/4415 Multimedia Design and Authoring</a>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="assets/js/functions.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
